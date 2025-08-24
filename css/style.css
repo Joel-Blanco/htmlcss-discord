@@ -1,0 +1,180 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/* DEBUG */
+/* body {
+    background-color: aquamarine;
+} */
+
+
+/* COMMON */
+/* utilities */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    /* debug */
+    /* border: 2px dashed black; */
+}
+
+.flex {
+    display: flex;
+}
+
+.just-cont-center {
+    justify-content: center;
+}
+
+.just-cont-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.dashed {
+    border: 2px dashed black;
+}
+
+.bg-gray {
+    background-color: rgb(211, 211, 211);
+}
+
+/* HEADER */
+header {
+    height: 60px;
+    background-color: aqua;
+}
+
+nav {
+    background-color: rgb(226, 169, 63);
+}
+
+ header ul {
+    gap: 10px;
+}
+
+.logo, .login {
+    width:20%;
+}
+
+.login {
+    text-align: end;
+}
+
+.nav-list {
+    width:60%;
+}
+/* MAIN */
+/* Hero-section */
+.hero-section {
+    background-color: rgb(37, 37, 141);
+}
+.hero-content {
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: rgb(202, 121, 226);
+    min-height: 350px;
+}
+
+/* 2-col-section */
+.col-40 {
+    width: 40%;
+    background-color: pink;
+}
+
+.col-60 {
+    width: 60%;
+    background-color: lightskyblue;
+}
+
+.col-40, .col-60 {
+    min-height: 400px;
+}
+
+.end-section {
+    width:100%;
+    min-height: 800px;
+    background-color: green;
+}
+
+
+/* FOOTER */
+/* top-footer */
+footer {
+    background-color: rgb(46, 46, 46);
+}
+
+.top-footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(211, 211, 211);
+}
+
+.col-30 {
+    width: 30%;
+    min-height:500px;
+    background-color: blueviolet;
+}
+
+.col-70 {
+    width: 70%;
+    min-height:500px;
+    background-color: rgb(93, 185, 165);
+}
+
+.col-25 {
+    width: 25%;
+    border: 2px dashed white;
+}
+
+/* .bottom-footer */
+.bottom-footer {
+    padding-top: 20px;
+}
+
+.bottom-footer>div {
+    padding: 15px 0;
+    background-color: rgb(135, 255, 219);
+}
+
+.bottom-footer a {
+    background-color: pink;
+    padding: 4px 8px;
+}
+
