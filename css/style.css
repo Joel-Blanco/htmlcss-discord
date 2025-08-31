@@ -30,11 +30,7 @@ body {
 
 /* COMMON */
 .bg-gray {
-    background-color: rgb(230, 230, 230);
-    background-image: url('../img/wave.svg');
-    background-repeat: repeat-x;       
-    background-position: bottom center;
-    background-size: auto 140px;
+    background-color: rgb(240, 240, 240);
 }
 
 .btn {
@@ -199,24 +195,51 @@ header {
 /* top-footer */
 footer {
     background-color: rgb(46, 46, 46);
+    color: white;
 }
 
 .top-footer {
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 30px;
     border-bottom: 2px solid rgb(211, 211, 211);
+}
+
+.top-footer h2 {
+    font-size: 1.7em;
+    color: rgb(133, 137, 204);
+}
+
+.language {
+    gap: 6px;
+    padding-bottom: 10px;
+}
+
+.language span {
+    line-height: 1;
+}
+
+.flag {
+    width: 20px;
+}
+
+.social-icons {
+    gap: 20px;
 }
 
 .col-30 {
     width: 30%;
     min-height:500px;
-    background-color: blueviolet;
+}
+
+.purple-bold {
+    color: rgb(133, 137, 204);
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .col-70 {
     width: 70%;
     min-height:500px;
-    background-color: rgb(93, 185, 165);
 }
 
 .col-25 {
