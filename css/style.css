@@ -30,7 +30,7 @@ body {
 
 /* COMMON */
 .bg-gray {
-    background-color: rgb(240, 240, 240);
+    background-color: #f0f0f0;
 }
 
 .btn {
@@ -50,6 +50,17 @@ body {
 
 .btn-purple {
     background-color: rgb(133, 137, 204);
+}
+
+.wave {
+  display: block;
+  width: 100%;
+  height: auto;
+  fill: gray;
+}
+
+.wave.flip {
+  transform: rotate(180deg);
 }
 
 /* utilities */
